@@ -1,0 +1,37 @@
+.text-uppercase {
+    text-transform: uppercase;
+}
+.color-foun {
+    color: rgb(15, 245, 111);
+}
+.color-foun2 {
+    color: aqua;
+}
+.text-bg {
+    text-align: left;
+}
+.button {
+        border-style: solid;
+        border-color: blue;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: bisque;
+        margin: 5px;
+        display: inline;
+}
+a {
+    text-decoration: none;
+}
+
+.my-circle {
+     border-radius: 100%;
+     width: 100px;
+     height: 100px;
+     margin: auto;
+     
+     
+}
+
+.my-bg {
+    background-color: aquamarine;
+}

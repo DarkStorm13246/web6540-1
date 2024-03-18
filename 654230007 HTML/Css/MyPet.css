@@ -1,0 +1,87 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;600;800&display=swap');
+body{
+    background-color: #89BEB5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inknut Antiqua', serif;
+}
+/*Start header */
+header {
+    background-color: #315952;
+}
+    nav {
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        /* border: 2px solid red;  */
+        display: flex;
+        width: 300px;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .h1-title {
+        margin-left: 20px;
+        color: aliceblue;
+        text-transform: uppercase;
+        
+    }
+    .menu {
+       /* border: 2px solid blue; */
+        display: flex;
+        list-style: none;
+      /*  width: 500px; */
+        
+    }
+    li {
+        margin-right: 15px;
+    }
+    a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+    
+/* End */
+/* Start Main-conten */
+    .main-content {
+        margin: auto;
+        width: 1000px;
+    }
+
+    .box {
+        background-color: aliceblue;
+        padding: 20px;
+        margin: 30px 0px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .Button {
+        color: aliceblue;
+        background-color: blue;
+        padding: 8px 24px;
+        /* width: 100px; */
+        border-radius: 30px;
+        display: inline-block;
+    }
+
+    .text-param {
+        font-weight: 300;
+    }
+/* End main-conten */
+
+/* Start footer*/
+footer{
+    background-color:#315952;
+    margin: 0;
+    padding: 0.1%;
+    text-align: center;
+    color: aliceblue;
+}
+/* End */
