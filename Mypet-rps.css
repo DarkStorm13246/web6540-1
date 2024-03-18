@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;600;800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    /* background-color: black; */
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+   
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+} 
+nav ul li {
+    margin-left: 30px;
+}
+
+/* ------------------------------------------------------------- rps menu ------------------------------------------------------------------------- */
+@media screen and (max-width:480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul  {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*---------------------------------------------------------- hero------------------------------------------------------------------------- */
+.hero {
+    background-image: url("https://www.sentangsedtee.com/wp-content/uploads/2017/08/19149350_742875502538802_1417261338669357754_n.jpg");
+    max-width: 95%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    justify-content: center;
+   
+   
+}
+.text-hero {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.text-hero-param {
+    font-size: 20px;
+    
+}
+/* ------------------------------------------------------------- rps hero ------------------------------------------------------------------------- */
+@media screen and (max-width:768px) {
+    .hero {
+        display: grid;
+        
+        grid-template-columns: repeat(2,1fr);
+      
+        max-width: 95%;
+       margin: auto;
+    
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        max-width: 95%;
+       margin: auto;
+    }
+}
+/*---------------------------------------------------------- hero1------------------------------------------------------------------------- */
+
+.hero1 {
+    background-color: beige;
+    max-width: 95%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    
+}
+
+.textbox1 {
+    background-color: rgb(255, 252, 252);
+    margin-left: 160px;
+    padding: 20px;
+    width: 100px;
+    border-radius: 100px;
+    text-align: center;
+    
+    
+
+}
+
+.textbox2 {
+    background-color: rgb(255, 252, 252);
+    padding: 20px;
+    width: 100px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 160px;
+}
+
+.textbox3 {
+    background-color: rgb(255, 252, 252);
+    padding: 20px;
+    width: 100px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 160px;
+}
+
+.textbox4 {
+    margin-left: 160px;
+    background-color: rgb(255, 252, 252);
+    padding: 20px;
+    width: 100px;
+    border-radius: 100px;
+    text-align: center;
+}
+/* ------------------------------------------------------------- rps hero1 ------------------------------------------------------------------------- */
+@media screen and (max-width:768px) {
+    .hero1 {
+        display: grid;
+        
+        grid-template-columns: repeat(2,1fr);
+      
+        max-width: 95%;
+       margin: auto;
+    
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .hero1 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        max-width: 95%;
+       margin: auto;
+    }
+}
+/*---------------------------------------------------------- mypet-content------------------------------------------------------------------------- */
+
+.mypet-content {
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin: auto;
+   max-width: 95%;
+
+}
+
+.box {
+    /* background-color: black; */
+    /* padding: 20px; */
+    margin: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgb(194, 176, 176);
+  
+}
+.image {
+   width: 100%; 
+   border-radius: 10px 10px 0px 0px;
+
+}
+
+.text-content {
+    padding: 10px;
+    color: #40ad25;
+}
+.text-param {
+    color: #40ad25;
+}
+.Button {
+    padding: 10px;
+    width: 100px;
+    /* text-decoration: none; */
+    /* color: #ffffff; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgb(194, 176, 176)
+}
+/* ------------------------------------------------------------- rps pet-content ------------------------------------------------------------------------- */
+@media screen and (max-width:768px) {
+    .mypet-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 95%;
+       margin: auto;
+    
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .mypet-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+footer{
+    background-color:#315952;
+    margin: 0;
+    padding: 0.1%;
+    text-align: center;
+    color: aliceblue;
+}
